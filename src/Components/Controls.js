@@ -6,11 +6,15 @@ import HeavyPlus from "../../public/Images/HeavyPlus.webp"
 import Share from "../../public/Images/Share.webp"
 import Profile from "../../public/Images/Profile.webp"
 
-export default function Controls() {
+export default function Controls({ setAdding }) {
   return (
     <>
       <div className='flex gap-4'>
-        <Button text={"Add Task"} icon={HeavyPlus} />
+        <Button
+          text={"Add Task"}
+          icon={HeavyPlus}
+          setAdding={setAdding}
+        />
         <Button text={"Filter"} />
       </div>
       <div className='flex gap-2 items-center'>
