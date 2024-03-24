@@ -8,6 +8,17 @@
   --background-end-rgb: rgba(255,254,254,255);
 }
 
+::-webkit-scrollbar{
+  height: 2px;
+  width: 7px;
+  background-color: rgb(224, 224, 224);
+}
+::-webkit-scrollbar-thumb{
+        background: #9ecdf9;
+        border-radius: 10px;
+        
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: rgba(255,254,254,255);

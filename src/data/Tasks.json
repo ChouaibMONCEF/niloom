@@ -1,0 +1,58 @@
+[
+  {
+    "id": 2,
+    "title": "Task canvas",
+    "description": "Create Drag and Drop feature in canvas",
+    "status": 3,
+    "order": 1
+  },
+  {
+      "id": 3,
+      "title": "Architecture of NextJS Project",
+      "description": "init the projects and add some useful foldes and utilities",
+      "status": 1,
+      "order": 1
+    },
+    {
+      "id": 4,
+      "title": "Deployment",
+      "description": "Deploy the app in vercel",
+      "status": 3,
+      "order": 2
+    },
+    {
+      "id": 5,
+      "title": "UI",
+      "description": "Based on mockup create the interface.",
+      "status": 2,
+      "order": 1
+    },
+    {
+      "id": 6,
+      "title": "Add Tasks",
+      "description": "Add tasks functionality",
+      "status": 1,
+      "order": 2
+    },
+    {
+      "id": 1,
+      "title": "Create a Logo",
+      "description": "Create niloom logo.",
+      "status": 1,
+      "order": 3
+    },
+    {
+      "id": 7,
+      "title": "Edit Tasks",
+      "description": "Edit tasks functionality",
+      "status": 3,
+      "order": 3
+    },
+    {
+      "id": 8,
+      "title": "Fake Data",
+      "description": "generate fake data for the board",
+      "status": 4,
+      "order": 1
+    }
+  ]
